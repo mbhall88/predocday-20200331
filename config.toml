@@ -1,6 +1,5 @@
-baseURL = "http://example.org/"
 languageCode = "en-gb"
-title = "My New Hugo Site"
+title = "De novo variant discovery for bacterial pan-genomes with genome graphs"
 theme = "reveal-hugo"
 
 [outputFormats.Reveal]
