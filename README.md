@@ -1,6 +1,7 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+- [Abstract](#abstract)
 - [EBI reveal-hugo template](#ebi-reveal-hugo-template)
 - [Install](#install)
 - [Usage](#usage)
@@ -10,6 +11,13 @@
   - [Logo](#logo)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
+# Abstract
+
+## *De novo* variant discovery for bacterial pan-genomes with genome graphs
+
+Bacterial genetic variation originates through multiple mechanisms, including mutations during replication, movement of mobile elements, and various forms of recombination. As a result, genomes can be highly divergent with only a small fraction of genes core to all and a large pan-genome of genes which are present in one or more sequenced samples. In this context, the ability to accurately detect genetic variation throughout the pan-genome and compare many genomes remains a difficult problem. A previous student in our lab has developed a novel pan-genome reference graph structure and associated algorithms, designed to allow approximation of a sequenced genome as a recombinant of genomes in the reference panel. We develop and implement these for both long and short read sequence data allowing detection and genotyping of SNPs and larger variants across the pan-genome. The method selects a reference which allows the most succinct description of variation in a given dataset, removing the need to choose a reference genome.  
+One limitation of this methodology, though is the inability to discover de novo variation (in other words, variation not there in the graph (“the reference panel”)). There are many examples of situations where it is desirable to call novel mutations, one of these being when dealing with an outbreak, as samples are generally so closely related they only differ by a handful of variants. If these variants are not within the reference graph, they will appear to be the same if genotyping alone is used.  
+Here we describe extending this method for detection of novel variation and describe the algorithm used to achieve it.
 
 # EBI reveal-hugo template
 
