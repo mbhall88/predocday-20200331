@@ -3,9 +3,11 @@ title = "My presentation"
 outputs = ["Reveal"]
 +++
 
-# Hello world!
+## *De novo* variant discovery for bacterial pan-genomes with genome graphs
 
-This is my first slide.
+Michael B. Hall
+
+**Predoc Seminar Day 2020**
 
 ---
 
